@@ -38,6 +38,12 @@ nav ul {
 nav li {
   margin: 0;
   font-weight: 600;
+  white-space: nowrap;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #0e0e0e;
 }
 
 .hero {
@@ -128,13 +134,26 @@ footer p:last-of-type {
   margin-top: 0;
 }
 
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2em;
+  margin-top: 2em;
+}
+
 @media only screen and (orientation: portrait) and (min-width: 600px) {
   .hero {
     height: 400px;
+    padding-inline: 1em;
   }
 }
 @media only screen and (orientation: landscape) and (min-width: 800px) {
   .hero {
     height: 300px;
+    padding-inline: 15em;
+  }
+  .blog-post img {
+    height: 150px;
+    object-fit: cover;
   }
 }

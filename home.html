@@ -3,22 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=s, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="home-styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
       rel="stylesheet"
     />
-    <title>Learning Journal</title>
+    <title>Learning Journal - Home</title>
   </head>
   <body>
     <nav>
       <img src="assets/logo.png" alt="Logo image" />
       <h1>My learning journal</h1>
       <ul>
-        <li>HOME</li>
-        <li>ABOUT ME</li>
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="about-me.html">ABOUT ME</a></li>
       </ul>
     </nav>
     <section class="hero">
@@ -31,45 +31,47 @@
       </p>
     </section>
     <main>
-      <section>
-        <img
-          src="assets/article-image-01.png"
-          alt="A laptop screen that reads 'I design and develop experiences that make people's lives simple.'"
-        />
-        <time datetime="2022-07-23">JULY 23, 2022</time>
-        <h2>Blog one</h2>
-        <p>
-          I'm excited to start a new learning journey as a Scrimba Bootcamp
-          student! After several months of learning in the Frontend Developer
-          Career Path.
-        </p>
-      </section>
-      <section>
-        <img
-          src="assets/article-image-02.png"
-          alt="A laptop screen that reads 'I design and develop experiences that make people's lives simple.'"
-        />
-        <time datetime="2022-07-23">JULY 23, 2022</time>
-        <h2>Blog two</h2>
-        <p>
-          I'm excited to start a new learning journey as a Scrimba Bootcamp
-          student! After several months of learning in the Frontend Developer
-          Career Path.
-        </p>
-      </section>
-      <section>
-        <img
-          src="assets/article-image-03.png"
-          alt="A laptop screen that reads 'I design and develop experiences that make people's lives simple.'"
-        />
-        <time datetime="2022-07-23">JULY 23, 2022</time>
-        <h2>Blog three</h2>
-        <p>
-          I'm excited to start a new learning journey as a Scrimba Bootcamp
-          student! After several months of learning in the Frontend Developer
-          Career Path.
-        </p>
-      </section>
+      <div class="posts-grid">
+        <section>
+          <img
+            src="assets/article-image-01.png"
+            alt="A laptop screen that reads 'I design and develop experiences that make people's lives simple.'"
+          />
+          <time datetime="2022-07-23">JULY 23, 2022</time>
+          <h2>Blog one</h2>
+          <p>
+            I'm excited to start a new learning journey as a Scrimba Bootcamp
+            student! After several months of learning in the Frontend Developer
+            Career Path.
+          </p>
+        </section>
+        <section>
+          <img
+            src="assets/article-image-02.png"
+            alt="A laptop screen that reads 'I design and develop experiences that make people's lives simple.'"
+          />
+          <time datetime="2022-07-23">JULY 23, 2022</time>
+          <h2>Blog two</h2>
+          <p>
+            I'm excited to start a new learning journey as a Scrimba Bootcamp
+            student! After several months of learning in the Frontend Developer
+            Career Path.
+          </p>
+        </section>
+        <section>
+          <img
+            src="assets/article-image-03.png"
+            alt="A laptop screen that reads 'I design and develop experiences that make people's lives simple.'"
+          />
+          <time datetime="2022-07-23">JULY 23, 2022</time>
+          <h2>Blog three</h2>
+          <p>
+            I'm excited to start a new learning journey as a Scrimba Bootcamp
+            student! After several months of learning in the Frontend Developer
+            Career Path.
+          </p>
+        </section>
+      </div>
       <!-- <p id="view-more">View More</p> -->
     </main>
     <footer>
